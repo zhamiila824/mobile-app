@@ -95,7 +95,7 @@
         top:100px;
         text-align:right;
         display:block;
-        width:calc(100% - 80px);
+        width:60%;
         padding-left:0;
         padding-right:0;
         left:40px
@@ -109,42 +109,37 @@
     .second_header .right{
         float: right;
     }
-    .portfolio_page .video_section{
-        padding:0;
-        text-align:left
+    .second_header_biography .biography_info{
+        max-width:100%;
+        padding:0 40px
     }
     .portfolio_page .img_block{
         max-width:100%
     }
-    .portfolio_page .portfolio_page_section_one{
-        -ms-flex-direction:column;
-        flex-direction:column;
-        padding:0;
-        margin-bottom:20px
-    }
     .portfolio_page .portfolio_page_section_one .img_block{
+        width: 52.5%;
         margin-bottom:40px;
         margin-right:0
     }
     .portfolio_page .portfolio_page_section_one .info_block{
-        padding:0 40px
+        width: 29%;
+        margin-left: 60px;
     }
-    .portfolio_page .portfolio_page_section_one ul,.portfolio_page .video_section{
+    .portfolio_page .portfolio_page_section_one ul{
         margin-bottom:30px
     }
-    .portfolio_page .portfolio_page_section_three{
-        -ms-flex-direction:column;
-        flex-direction:column;
-        padding:0;
-        margin-bottom:30px
-    }
-    .portfolio_page .portfolio_page_section_three .info_block,.second_header_biography .biography_info{
-        max-width:100%;
-        padding:0 40px
+    .portfolio_page .video_section{
+        width: 70%;
+        margin: 0 0 150px 180px;
     }
     .portfolio_page .portfolio_page_section_three .img_block{
+        width: 45%;
         margin-bottom:40px;
-        margin-right:0
+        margin-right:60px;
+        margin-left: 70px;
+    }
+    .portfolio_page .portfolio_page_section_three .info_block{
+        width: 29%;
     }
     .portfolio_page .portfolio_page_section_three .info_block p{
         margin-bottom:30px
@@ -215,10 +210,11 @@
     .awards .title,.main_portfolio .item:nth-child(2n) .info_block .title{
         padding-left:0
     }
-    .logo{
-        width:56px;
-        height:70px;
-        display:block
+    .second_header .second_header_title{
+        width:57%;
+    }
+    .second_header .second_header_title h3{
+        font-size:28px;
     }
     #main_portfolio_more{
         display: block;
@@ -360,6 +356,39 @@
     .main_news .owl-carousel{
         padding:0
     }
+    .portfolio_page .portfolio_page_section_one .img_block{
+        width: 100%;
+        margin-bottom:40px;
+        margin-right:0
+    }
+    .portfolio_page .portfolio_page_section_one .info_block{
+        width: 65%;
+        padding:0 40px;
+        margin-left: 35%
+    }
+    .portfolio_page .portfolio_page_section_one ul{
+        margin-bottom:30px
+    }
+    .portfolio_page .video_section{
+        padding: 0;
+        width: 100%;
+        margin-top: 50px;
+        margin-left:0;
+        margin-bottom: 0
+    }
+    .portfolio_page .portfolio_page_section_three .img_block{
+        width: 100%;
+        margin:0;
+        margin-bottom:60px;
+    }
+    .portfolio_page .portfolio_page_section_three .info_block{
+        width:70%;
+        padding:0 40px;
+        margin-left: 30%
+    }
+    .portfolio_page .portfolio_page_section_three .info_block p{
+        margin-bottom:30px
+    }
     .main_news .item{
         flex-basis: 50%;
     }
@@ -369,7 +398,39 @@
     .awards .owl-carousel .owl-stage-outer{
         overflow:hidden!important
     }
-    .awards .left,.awards .right,.main_news .left,.main_news .right{
+    .awards .left,.awards.portfolio_page .portfolio_page_section_one{
+        -ms-flex-direction:column;
+        flex-direction:column;
+        padding:0;
+        margin-bottom:20px
+    }
+    .portfolio_page .portfolio_page_section_one .img_block{
+        margin-bottom:40px;
+        margin-right:0
+    }
+    .portfolio_page .portfolio_page_section_one .info_block{
+        padding:0 40px
+    }
+    .portfolio_page .portfolio_page_section_one ul,.portfolio_page .video_section{
+        margin-bottom:30px
+    }
+    .portfolio_page .portfolio_page_section_three{
+        -ms-flex-direction:column;
+        flex-direction:column;
+        padding:0;
+        margin-bottom:30px
+    }
+    .portfolio_page .portfolio_page_section_three .info_block,.second_header_biography .biography_info{
+        max-width:100%;
+        padding:0 40px
+    }
+    .portfolio_page .portfolio_page_section_three .img_block{
+        margin-bottom:40px;
+        margin-right:0
+    }
+    .portfolio_page .portfolio_page_section_three .info_block p{
+        margin-bottom:30px
+    } .right,.main_news .left,.main_news .right{
         display:none
     }
     .portfolio .portfolio_container{
@@ -408,6 +469,39 @@
         position:absolute;
         top:0
     }
+    .portfolio_page .portfolio_page_section_one{
+        -ms-flex-direction:column;
+        flex-direction:column;
+        padding:0;
+        margin-bottom:20px
+    }
+    .portfolio_page .portfolio_page_section_one .img_block{
+        margin-bottom:40px;
+        margin-right:0
+    }
+    .portfolio_page .portfolio_page_section_one .info_block{
+        padding:0 40px
+    }
+    .portfolio_page .portfolio_page_section_one ul,.portfolio_page .video_section{
+        margin-bottom:30px
+    }
+    .portfolio_page .portfolio_page_section_three{
+        -ms-flex-direction:column;
+        flex-direction:column;
+        padding:0;
+        margin-bottom:30px
+    }
+    .portfolio_page .portfolio_page_section_three .info_block,.second_header_biography .biography_info{
+        max-width:100%;
+        padding:0 40px
+    }
+    .portfolio_page .portfolio_page_section_three .img_block{
+        margin-bottom:40px;
+        margin-right:0
+    }
+    .portfolio_page .portfolio_page_section_three .info_block p{
+        margin-bottom:30px
+    }
     .animated{
         -webkit-transition-property:none!important;
         transition-property:none!important;
@@ -422,6 +516,11 @@
 @media only screen and (max-width:500px){
     footer .contacts_section .social{margin-left:auto}}
 @media only screen and (max-width:414px){
+    .logo{
+        width:56px;
+        height:70px;
+        display:block
+    }
     footer .menu_section{
         bottom:47px
     }
