@@ -106,8 +106,11 @@
         font-size:42px;
         width: 100%
     }
-    .second_header .right{
+    .second_header_biography .right{
         float: right;
+    }
+    .second_header_biography .second_header_title{
+        width: 99%;
     }
     .second_header_biography .biography_info{
         max-width:100%;
@@ -274,12 +277,7 @@
         text-align: left;
         width: 116px;
     }
-    .contacts_section{
-        text-align: left;
-    }
-    .second_header_biography .left{
-        height:700px
-    }
+    
     .awards .owl-dots{
         display:-webkit-box;
         display:-ms-flexbox;
@@ -308,15 +306,17 @@
         display:inline-block;
         font-size:28px
     }
-    .awards_info_section .item1 .left,.awards_info_section .item1 .right,.awards_info_section .item2 .left,.awards_info_section .item2 .right{
+    .awards_info_section .item1 .left,.awards_info_section .item2 .right{
         width:100%;
-        max-width:100%
+        max-width:100%;
     }
     .awards .news_container,.awards_info_section{
         padding:0
     }
     .awards_info_section .item1 .right,.awards_info_section .item2 .left{
-        padding:0 40px
+        padding:0 40px;
+        width:70%;
+        margin-left: 30%; 
     }
     .awards_info_section .item1{
         -ms-flex-direction:column;
@@ -334,7 +334,10 @@
         margin-bottom:30px;
         -webkit-box-ordinal-group:0;
         -ms-flex-order:-1;
-        order:-1
+        order:-1;
+    }
+    .awards_info_section .item2 .right img{
+        width: 100%;
     }
     .news_container{
         padding:0 40px;
@@ -430,7 +433,8 @@
     }
     .portfolio_page .portfolio_page_section_three .info_block p{
         margin-bottom:30px
-    } .right,.main_news .left,.main_news .right{
+    } 
+    .main_news .left,.main_news .right{
         display:none
     }
     .portfolio .portfolio_container{
@@ -502,6 +506,24 @@
     .portfolio_page .portfolio_page_section_three .info_block p{
         margin-bottom:30px
     }
+    .second_header_biography{
+        background-position: left bottom;
+        background-size: cover;
+        width: 100%;
+        height: 1024px;
+        display: block
+    }
+    .second_header_biography .second_header_title{
+        width: 99%;
+    }
+    .second_header_biography .right{
+       width: 100%;
+    }
+    .right .biography_info{
+       width: 70%;
+       margin-top: 570px; 
+       float: right
+    }
     .animated{
         -webkit-transition-property:none!important;
         transition-property:none!important;
@@ -510,23 +532,58 @@
         -webkit-animation:none!important;
         animation:none!important
     }
+    footer .contacts_section>a{
+        width: 100%;
+        align-items: flex-start;
+    }
+    footer .contacts_section .social{
+        margin-left:auto
+    }
 }
 @media only screen and (max-width:576px){
     .mfp-title{position:relative;font-size:18px;width:100%;bottom:4px}.mfp-counter{display:none}.main_portfolio .item .item_bottom_block .data{line-height:19px}.main_portfolio .item .item_bottom_block .data .adress,.main_portfolio .item .item_bottom_block .data .time{margin-bottom:10px}.second_header_biography .left{height:500px}}
 @media only screen and (max-width:500px){
-    footer .contacts_section .social{margin-left:auto}}
-@media only screen and (max-width:414px){
     .logo{
         width:56px;
         height:70px;
         display:block
     }
+    .second_header_title{
+        width: 61%;
+    }
+    .second_header .second_header_title h3{
+        margin-top: 50px;
+        text-align: left;
+    }
+    .second_header .second_header_title .breadcrumbs{
+        display: none;
+    }
+    .portfolio_page .portfolio_page_section_one .info_block{
+        width: 70%;
+        margin-left: 0
+    }
+    .portfolio_page .portfolio_page_section_three .info_block{
+        width: 100%;
+        margin: 0
+    }
+    .second_header_biography{
+        background-position: left 120px;
+        background-size: auto 500px;
+        width: 100%;
+        height: 1089px;
+        display: block
+    }
+    .right .biography_info{
+        width: 100%;
+        margin-top: 200px; 
+     }
+    
     footer .menu_section{
         bottom:47px
     }
-    footer .contacts_section .social .facebook::before,footer .contacts_section .social .instagram::before,footer .contacts_section .social .youtube::before{
-        width:30px;
-        height:30px;
-        font-size:15px
+    .awards_info_section .item1 .right, .awards_info_section .item2 .left, .awards_info_section .item2 .right{
+        width: 100%;
+        padding: 0 40px;
+        margin-left: 0
     }
 }
