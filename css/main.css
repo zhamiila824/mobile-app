@@ -20,17 +20,19 @@
         background-size: cover;
         overflow:hidden;
     }
-    .img_name{
-        width: 17%;
+    .main_header_img{
         position: absolute;
-        bottom: 20%;
-        right: 38%;
+        width: 57%;
+        bottom: 5%;
+        right: 42%
+    }
+    .img_name{
+        width: 40%;
+        margin-left: 60%
     }
     .img_surname{
-        position: absolute;
-        bottom: 5%;
-        right: 38%;
-        width: 46%;
+        margin-top: -10%;
+        width: 100%;
     }
     #main_portfolio_more{
         width: 100px;
@@ -47,7 +49,6 @@
 @media only screen and (max-width:1368px){
     header:after{left:0}}
 @media only screen and (max-width:1200px){
-    .main_header_info{width:40%}
     .main_header_info .autor_title, .main_header_info .first_content{
         display: none;
     }
@@ -193,15 +194,10 @@
         background-size: 100% 50%; 
         margin-bottom: 0
     }
-    .img_name{
-        width:21%;
-        right: 5%;
-        top:39%;
-    }
-    .img_surname{
-        width: 57%;
-        right: 5%;
-        top: 40%;
+    .main_header_img{
+        width: 60%;
+        right: 0;
+        bottom: 52.5%
     }
     .main_header_info{
         width:59%;
@@ -356,8 +352,13 @@
         padding: 0 40px;
     }
     .main_news .owl-carousel{
-        padding:0
+        padding:0;
     }
+    .main_news .news_container .slider {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     .portfolio_page .portfolio_page_section_one .img_block{
         width: 100%;
         margin-bottom:40px;
@@ -391,11 +392,8 @@
     .portfolio_page .portfolio_page_section_three .info_block p{
         margin-bottom:30px
     }
-    .main_news .item_inner{
-        flex-basis: 50%;
-    }
-    .slider .owl-stage-outer>.owl-stage-mobile,.slider .owl-stage-outer>.owl-stage-mobile .owl-item{
-        width:100%!important
+    .slider{
+        width:100%
     }
     .awards .owl-carousel .owl-stage-outer{
         overflow:hidden!important
@@ -461,7 +459,7 @@
         position:absolute;
         top:40px;
         width:auto;
-        font-size:28px;zhamiila824.github.io
+        font-size:28px;
         display:inline-block
     }
     .portfolio .portfolio_container .item .text_block .data{
@@ -547,11 +545,10 @@
         height:895px;
         padding: 40px;
     }
-    .img_name{
-        width: 30%
-    }
-    .img_surname{
-        width: 100%
+    .main_header_img{
+        width: 100%;
+        bottom: 47%;
+        right: 5%
     }
     .logo{
         width:56px;
