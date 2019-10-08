@@ -252,7 +252,6 @@
     .main_portfolio .item .info_block{
         margin-left: 37%;
         width: 50%
-
     }
     .main_portfolio .item .data,.main_portfolio .item .icon,.main_portfolio .item .tags{
         margin-left:0;
@@ -392,7 +391,7 @@
     .portfolio_page .portfolio_page_section_three .info_block p{
         margin-bottom:30px
     }
-    .main_news .item{
+    .main_news .item_inner{
         flex-basis: 50%;
     }
     .slider .owl-stage-outer>.owl-stage-mobile,.slider .owl-stage-outer>.owl-stage-mobile .owl-item{
@@ -543,10 +542,32 @@
 @media only screen and (max-width:576px){
     .mfp-title{position:relative;font-size:18px;width:100%;bottom:4px}.mfp-counter{display:none}.main_portfolio .item .item_bottom_block .data{line-height:19px}.main_portfolio .item .item_bottom_block .data .adress,.main_portfolio .item .item_bottom_block .data .time{margin-bottom:10px}.second_header_biography .left{height:500px}}
 @media only screen and (max-width:500px){
+    header{
+        background-size: 100% 303px;
+        height:895px;
+        padding: 40px;
+    }
+    .img_name{
+        width: 30%
+    }
+    .img_surname{
+        width: 100%
+    }
     .logo{
         width:56px;
         height:70px;
         display:block
+    }
+    .main_header_info{
+        width:100%;
+        left: 0
+    }
+    .main_portfolio .item .info_block{
+        margin-left: 0;
+        width: 100%
+    }
+    #main_portfolio_more{
+        margin-left: 37%
     }
     .second_header_title{
         width: 61%;
