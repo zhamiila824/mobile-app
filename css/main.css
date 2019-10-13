@@ -75,8 +75,8 @@
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-direction:row;
-        flex-direction:row;
+        -ms-flex-direction:column;
+        flex-direction:column;
     }
     .portfolio .filter_container input[type=checkbox]:checked+label,.portfolio .filter_container input[type=checkbox]:not(:checked)+label{
         margin-left:0;
