@@ -593,9 +593,11 @@
     }
     .right .biography_info{
         width: 100%;
-        margin-top: 200px; 
-     }
-    
+        margin-top: 190px; 
+    }
+    .awards .left::before, .awards .right::before{
+        display: none;
+    }
     footer .menu_section{
         bottom:47px
     }
