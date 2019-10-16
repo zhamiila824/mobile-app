@@ -203,7 +203,7 @@
         width:59%;
         padding:0 40px;
         left:37%;
-        top: 63%;
+        top: 55%;
         max-width:100%
     }
     .awards .title,.main_portfolio .item:nth-child(2n) .info_block .title{
@@ -242,8 +242,8 @@
         max-width:none
     }
     .main_portfolio .item .img_block{
-        width:120%;
-        margin-left: -40px;
+        width:130%;
+        margin: 0 -40px;
     }
     .main_portfolio .item .info_block{
         margin-left: 37%;
@@ -351,13 +351,15 @@
     .main_news{
         padding: 0 40px;
     }
-    .main_news .owl-carousel{
-        padding:0;
-    }
-    .main_news .news_container .slider {
+    .main_news_container .slider{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
     }
+    .main_news_container .slider .item{
+        flex-basis: 45%;
+    }
+    
     
     .portfolio_page .portfolio_page_section_one .img_block{
         width: 100%;
@@ -542,7 +544,7 @@
 @media only screen and (max-width:500px){
     header{
         background-size: 100% 303px;
-        height:895px;
+        height:945px;
         padding: 40px;
     }
     .main_header_img{
